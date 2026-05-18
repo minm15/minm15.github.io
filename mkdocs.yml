@@ -1,0 +1,35 @@
+site_name: My Technical Notes
+site_url: https://minm15.github.io/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Linux:
+      - Overview: linux/index.md
+      - Memory Management: linux/memory-management.md
+      - File System: linux/file-system.md
+  - C++:
+      - Overview: cpp/index.md
+      - STL: cpp/stl.md
+  - ROS:
+      - Overview: ros/index.md
+      - ROS2 Bag: ros/ros2-bag.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+plugins:
+  - search
