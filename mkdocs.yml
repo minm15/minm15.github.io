@@ -13,8 +13,7 @@ nav:
   - Home: index.md
   - Linux:
       - Overview: linux/index.md
-      - Memory Management: linux/memory-management.md
-      - File System: linux/file-system.md
+      - File Descriptor: linux/file-descriptor.md
 
 markdown_extensions:
   - admonition
