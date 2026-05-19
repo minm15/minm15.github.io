@@ -59,9 +59,11 @@ struct fdtable {
 
 ### B. Open file table -> Inode table
 從 `struct file` 的成員可以看到 Open file table 中對應的欄位
-* file offset：f_pos
-* status flags: f_flags
-* inode pointer: f_inode
+
+- file offset: f_pos
+- status flags: f_flags
+- inode pointer: f_inode
+
 ```c
 struct file {
     ...
