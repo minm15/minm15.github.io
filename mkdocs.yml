@@ -29,6 +29,11 @@ nav:
   - Linux:
       - Overview: linux/index.md
       - File Descriptor: linux/file-descriptor.md
+      - XArray: linux/xarray.md
+      - RCU: linux/rcu.md
+  - C++:
+      - Overview: cpp/index.md
+      - Template: cpp/template_basic.md
 
 markdown_extensions:
   - admonition

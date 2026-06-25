@@ -1,3 +1,6 @@
 # Technical Notes
 
-- [Linux overview](linux/index.md)
+## Categories
+
+- [Linux](linux/index.md)
+- [C++](cpp/index.md)
