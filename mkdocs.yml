@@ -34,6 +34,7 @@ nav:
   - C++:
       - Overview: cpp/index.md
       - Template: cpp/template_basic.md
+      - Copy Control: cpp/copy_control.md
 
 markdown_extensions:
   - admonition
